@@ -1,0 +1,15 @@
+header{
+    height: 480px;
+}
+header h1{
+    font-size: 50px;
+    font-family: 'Berkshire Swash', cursive;
+    color: rgba(255, 94, 25, 1);
+    padding-bottom: 40px;
+}
+#heading{
+    padding-top: 120px;
+}
+.btn{
+    justify-content: center;
+}
