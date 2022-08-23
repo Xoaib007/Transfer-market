@@ -1,6 +1,3 @@
-const previousTotalPlayerPriceElement= document.getElementById('totalPlayerPrice1');
-const previousTotalPlayerPriceString= previousTotalPlayerPriceElement.innerText;
-const previousTotalPlayerPrice= parseFloat(previousTotalPlayerPriceString);
 
 document.getElementById('calculate').addEventListener('click', function(){
     const playerPrice= document.getElementById('playerPrice1');
@@ -9,11 +6,11 @@ document.getElementById('calculate').addEventListener('click', function(){
 
     playerPrice.value= '';
 
-   
+    const previousTotalPlayerPriceElement= document.getElementById('totalPlayerPrice1');
+
 
     const totalPlayerPrice= newPlayerPrice * 5;
     previousTotalPlayerPriceElement.innerText= totalPlayerPrice;
-
 })
 
 document.getElementById('totalCost1').addEventListener('click', function(){
@@ -29,10 +26,14 @@ document.getElementById('totalCost1').addEventListener('click', function(){
 
     coachCostElement.value='';
 
-    const totalCostElement= document.getElementById('totalCost')
-    const totalCostString= totalCostElement.innerText;
+    const totalCostElement= document.getElementById('totalCost');
 
-    const totalExpense= previousTotalPlayerPrice + managerCost + coachCost;
+    const playerCostElement= document.getElementById('totalPlayerPrice1');
+    const playerCostString= playerCostElement.innerText;
+    const playerCost= parseFloat(playerCostString)
+
+
+    const totalExpense= playerCost + managerCost + coachCost;
     totalCostElement.innerText= totalExpense;
 
 })
