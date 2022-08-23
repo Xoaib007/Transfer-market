@@ -37,7 +37,7 @@
                     <p class="card-text mx-2">36 assist</p>
                 </div >
                 <div class="text-center">
-                    <a href="#" class="btn btn-primary w-75 my-3">Select</a>
+                    <button id="haaland" onclick="playerList(this)" href="#" class="btn btn-primary w-75 my-3">Select</button>
                 </div>
               
             </div>
@@ -53,7 +53,7 @@
                     <p class="card-text mx-2">188 assist</p>
                 </div>
                 <div class="text-center">
-                    <a href="#" class="btn btn-primary w-75 my-3">Select</a>
+                    <button id="lewa" onclick="playerList(this)" href="#" class="btn btn-primary w-75 my-3">Select</button>
                 </div>
               
             </div>
@@ -69,23 +69,23 @@
                     <p class="card-text mx-2">11 assist</p>
                 </div>
                 <div class="text-center">
-                    <a href="#" class="btn btn-primary w-75 my-3">Select</a>
+                    <button id="raphinha" onclick="playerList(this)" href="#" class="btn btn-primary w-75 my-3">Select</button>
                 </div>
               
             </div>
         </div>
 
         <div class="card m-2 bg-dark text-white border-white border-opacity-25" style="width: 18rem;">
-           <h3 class="text-center mt-3 my-5">Selected-V</h3>
-            <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+           <h5 class="text-white">Selected-V</h5>
+           <table class="table table-dark">
+            <tbody id="players" >
+                <tr>
 
-           </ol>
+                </tr>
+            </tbody>
+            </table>
         </div>
+        
     </section>
 
     <section>
@@ -100,7 +100,7 @@
                         <p class="card-text mx-2">36 assist</p>
                     </div >
                      <div class="text-center">
-                        <a href="#" class="btn btn-primary w-75 my-3">Select</a>
+                        <button id="christen" onclick="playerList(this)" href="#" class="btn btn-primary w-75 my-3">Select</button>
                     </div>
                   
                 </div>
@@ -116,7 +116,7 @@
                         <p class="card-text mx-2">188 assist</p>
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn btn-primary w-75 my-3">Select</a>
+                        <button id="kessie" onclick="playerList(this)" href="#" class="btn btn-primary w-75 my-3">Select</button>
                     </div>
                   
                 </div>
@@ -132,7 +132,7 @@
                         <p class="card-text mx-2">11 assist</p>
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn btn-primary w-75 my-3">Select</a>
+                        <button id="kounde" onclick="playerList(this)" href="#" class="btn btn-primary w-75 my-3">Select</button>
                     </div>
                   
                 </div>
@@ -180,7 +180,9 @@
     </footer>
     
     <!-- Footer end -->
-    <script src="js/totalcost.js"></script>
+    <!-- <script src="script/playerList.js"></script> -->
+    <script src="script/list.js "></script>
+    <script src="script/totalcost.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     
 </body>

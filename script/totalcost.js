@@ -1,16 +1,31 @@
 
+// document.getElementById('calculate').addEventListener('click', function(){
+//     const playerPrice= document.getElementById('playerPrice1');
+//     const playerPriceString= playerPrice.value;
+//     const newPlayerPrice= parseFloat(playerPriceString);
+
+//     playerPrice.value= '';
+
+//     const previousTotalPlayerPriceElement= document.getElementById('totalPlayerPrice1');
+
+
+//     const totalPlayerPrice= newPlayerPrice * ;
+//     previousTotalPlayerPriceElement.innerText= totalPlayerPrice;
+// })
+
 document.getElementById('calculate').addEventListener('click', function(){
-    const playerPrice= document.getElementById('playerPrice1');
-    const playerPriceString= playerPrice.value;
-    const newPlayerPrice= parseFloat(playerPriceString);
 
-    playerPrice.value= '';
+    const addedPlayer= player.length;
 
-    const previousTotalPlayerPriceElement= document.getElementById('totalPlayerPrice1');
+    const playerBudgetElement= document.getElementById('playerPrice1');
+    const playerBudgetString= playerBudgetElement.value;
+    const playerBudgetInput= parseFloat(playerBudgetString);
 
+    const totalPlayerPrice= document.getElementById('totalPlayerPrice1');
 
-    const totalPlayerPrice= newPlayerPrice * 5;
-    previousTotalPlayerPriceElement.innerText= totalPlayerPrice;
+    const playerTotalExpenses= addedPlayer * playerBudgetInput;
+    totalPlayerPrice.innerText= playerTotalExpenses;
+
 })
 
 document.getElementById('totalCost1').addEventListener('click', function(){
