@@ -11,7 +11,7 @@ function playerList(element){
         displayplayerList(player);
     }
     else{
-        alert('error');
+        alert('You cant choose more than 5 player');
         return;
     }
     
@@ -29,18 +29,4 @@ function displayplayerList(playerList){
     }
 }
 
-// document.getElementById('calculate').addEventListener('click', function(){
-
-//     const addedPlayer= player.length;
-
-//     const playerBudgetElement= document.getElementById('playerPrice1');
-//     const playerBudgetString= playerBudgetElement.value;
-//     const playerBudgetInput= parseFloat(playerBudgetString);
-
-//     const totalPlayerPrice= document.getElementById('totalPlayerPrice1');
-
-//     const playerTotalExpenses= addedPlayer * playerBudgetInput;
-//     totalPlayerPrice.innerText= playerTotalExpenses;
-
-// })
 

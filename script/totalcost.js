@@ -1,18 +1,4 @@
 
-// document.getElementById('calculate').addEventListener('click', function(){
-//     const playerPrice= document.getElementById('playerPrice1');
-//     const playerPriceString= playerPrice.value;
-//     const newPlayerPrice= parseFloat(playerPriceString);
-
-//     playerPrice.value= '';
-
-//     const previousTotalPlayerPriceElement= document.getElementById('totalPlayerPrice1');
-
-
-//     const totalPlayerPrice= newPlayerPrice * ;
-//     previousTotalPlayerPriceElement.innerText= totalPlayerPrice;
-// })
-
 document.getElementById('calculate').addEventListener('click', function(){
 
     const addedPlayer= player.length;
