@@ -1,3 +1,7 @@
-<a href='https://messi14.netlify.app/'>Live Site</a>
+<a href='https://transfermarket.netlify.app/'>Live Site</a>
 
-Project started: 
+Project started: August 23, 2022
+
+Project target: Intregate JavaScript
+
+Technology used: HTML, CSS, Javascript
